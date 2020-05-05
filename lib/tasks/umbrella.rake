@@ -37,7 +37,7 @@ task(:umbrella) do
   rain = false 
   i = 0
   
-  15.times do
+  12.times do
     prob = hourly.at(i).fetch("precipProbability")
     #time = Time.at(hourly.fetch("data").at(i).fetch("time"))
 
